@@ -1,12 +1,9 @@
-History
+<b>History</b>
 
-Back in 2012, I was watching a tennis Grand Slam tournament on TV. That was when I wondered what would be like to write a computer program that conducts complete 127 match, 7 Round tennis tournaments based on the players actual records. I spent a couple thinking of an appropriate algorithm to simulate the distribution of points during a match, and ran into the Lower Bound of Wilson Score distribution. Refining the idea further, I was able to develop this game.
+This game uses a mathematical model(Lower Bound of Wilson Score Confidence Interval) to "conduct" a 127-game, 128-player Grand Slam tennis tournament point by point. 
 
-For more on this game, do look up my web page  <a href="http://www.code-bits.net/fantennis.htm">http://www.code-bits.net/fantennis.htm</a>
+For a detailed write-up, look up my web page  <a href="http://www.code-bits.net/fantennis.htm">http://www.code-bits.net/fantennis.htm</a>
 
-This was written in C and compiled on Linux. So as with any github repository, feel free to help yourself to the code and play with the tournament algorithm. 
+This was written in C and the Makefile has been adjusted to support both Windows and Unix/Linux. So as with any github repository, feel free to help yourself to the code and play with the tournament algorithm. 
 
-Happy coding!
-
-
-
+A graphical interface to play this game is in the works... 
