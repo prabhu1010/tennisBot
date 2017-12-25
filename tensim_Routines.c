@@ -5,7 +5,7 @@ void PrintWithDelay(char *str, int delay) {
 	while (*cPtr) {
 		printf("%c", *cPtr++);
         if (*cPtr != ' ')
-		    usleep(delay * 1000);
+		    usleep(delay * 2000);
 	}
 }
 
